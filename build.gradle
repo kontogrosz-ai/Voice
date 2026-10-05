@@ -1,4 +1,13 @@
 buildscript {
+    dependencies {
+        classpath 'com.android.tools.build:gradle:8.2.2'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.9.22"
+    }
+}
+
+// Usunęliśmy stąd bloki repositories i allprojects, 
+// ponieważ zarządza nimi plik settings.gradle.
+buildscript {
     repositories {
         google()
         mavenCentral()
