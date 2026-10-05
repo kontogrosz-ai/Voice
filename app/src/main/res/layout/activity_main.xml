@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://android.com"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center">
+
+    <!-- Pole na wygenerowany tekst -->
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Naciśnij przycisk i zacznij mówić..."
+        android:textSize="22sp"
+        android:textColor="#333333"
+        android:gravity="center" />
+
+    <!-- Prosty, okrągły lub duży przycisk na dole -->
+    <Button
+        android:id="@+id/buttonSpeak"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="NACIŚNIJ I MÓW"
+        android:textSize="16sp" />
+
+</LinearLayout>
