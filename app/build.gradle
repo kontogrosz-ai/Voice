@@ -1,0 +1,22 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'pl.example.mowatekst'
+    compileSdk 36
+
+    defaultConfig {
+        applicationId 'pl.example.mowatekst'
+        minSdk 23
+        targetSdk 36
+        versionCode 1
+        versionName '1.0'
+    }
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
+}
